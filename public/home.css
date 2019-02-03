@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Oswald:400,700|Volkhov:700');
+
+
+body{
+    /* image size should be 1600 by 900 */
+    background-image: url("/image001.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0;
+}
+
+nav{
+    background-color: white;
+    margin: 0;
+    font-family: 'Volkhov', serif;
+    height: 10vh;
+}
+
+nav h1{
+    margin: 0;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+a:visited{
+    color: #37485a;
+}
+
+a:hover{
+    /* color: #c08938; */
+    color: rgb(252, 121, 0);
+}
+
+ul{
+    list-style: none;
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 100px;
+}
+
+
+.special-container{
+    background-color: white;
+    margin-top: 60px;
+}
+
+.special-container h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.top-row{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "left center right";
+    width: 100%;
+    justify-content: center;
+    height: 60vh;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #37485a;
+}
+
+.left div{
+    height: 48%
+}
+
+.left a ul li{
+    line-height: 1.4;
+    text-align: center;
+}
+
+.left div a ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top: 2px solid #37485a;
+    border-bottom: 2px solid #37485a;
+}
+
+
+.center a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #37485a;
+}
+
+.right div{
+    height: 48%
+}
+
+.right a ul li{
+    line-height: 1.4;
+    text-align: center;
+}
+
+.right div a ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.bottom-row{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "bot-left bot-right";
+    width: 100%;
+    justify-content: center;
+    height: 30vh;
+    
+}
+
+.bottom-row div h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.bot-left{
+    display: flex;
+    justify-content: center;
+    border-left: 2px solid #37485a;
+    border-right: 2px solid #37485a;
+    border-bottom: 2px solid #37485a;
+    align-items: center;
+}
+
+.bot-right{
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid #37485a;
+    border-bottom: 2px solid #37485a;
+    align-items: center;
+}
+
+.thin-block{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.cursive{
+    font-family: 'Dancing Script', cursive;
+}
+
+.large-text{
+    font-size: 3em;
+}
+
+.med-text{
+    font-size: 2em;
+}
